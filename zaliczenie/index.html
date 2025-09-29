@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Taktycznie Zaliczeniowi – profil</title>
+  </head>
+  <body>
+    <header class="fb-header">
+      <div class="cover">
+        <div class="cover-art"></div>
+
+        <div class="page-row">
+          <div class="page-left">
+            <img class="avatar" src="Profil.png" alt="Taktycznie Zaliczeniowi"/>
+            <div class="title-wrap">
+              <h1 class="page-name">Taktycznie Zaliczeniowi</h1>
+              <div class="stats">
+                <span>132229 polubień</span>
+                <span class="dot">•</span>
+                <span>159432 obserwujących</span>
+              </div>
+              <div class="facepile">
+                <span class="bubble">🚀</span>
+                <span class="bubble">👩‍💻</span>
+                <span class="bubble">🤖</span>
+                <span class="bubble">💡</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="page-right">
+            <button class="btn primary">Skontaktuj się</button>
+            <button id="likeBtn" class="btn">Lubię to</button>
+            <button class="btn ghost">Obserwuj</button>
+          </div>
+        </div>
+
+        <nav class="tabs">
+          <button class="tab active" data-tab="posts">Posty</button>
+          <button class="tab" data-tab="info">Informacje</button>
+          <button class="tab" data-tab="opinie">Opinie</button>
+          <button class="tab">Zdjęcia</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="fb-content">
+      <aside class="left-col">
+        <section class="card">
+          <h2>Prezentacja</h2>
+          <p>Szybkie turnieje i jeszcze szybsze wygrane!</p>
+          <ul class="info-list">
+            <li>🏷️ <strong>Strona</strong> · TaktyczneZaliczenia</li>
+            <li>📍 ul. Linia Dolna 4, Summoners Rift</li>
+            <li>📞 21 374 20 69</li>
+            <li>✉️ <a href="#">TaktycznieZaliczeniowi@gmail.com</a></li>
+            <li>🔗 <a href="#">TaktyczneZalicznia.com</a></li>
+          </ul>
+          <button class="btn full">Promuj witrynę</button>
+          <div class="muted small">🟢 Otwarte teraz</div>
+        </section>
+      </aside>
+
+      <section class="right-col">
+        <div class="tab-panel" id="tab-posts">
+          <article class="card post">
+            <header class="post-head">
+              <div class="post-avatar">T</div>
+              <div>
+                <div class="post-title">Taktycznie Zaliczeniowi</div>
+                <div class="post-meta">23 maja · 🌐</div>
+              </div>
+            </header>
+            <p>
+              Dziękujemy naszym graczom za udział w turnieju zaliczeniowym!! Nie mogliśmy być bardziej dumni! Jeszcze raz dziękujemy <3
+            </p>
+            <img class="post-img" src="Post.png" alt="post"/>
+            <footer class="post-actions">
+              <button class="btn ghost">👍 Lubię to</button>
+              <button class="btn ghost">💬 Skomentuj</button>
+              <button class="btn ghost">↗️ Udostępnij</button>
+            </footer>
+          </article>
+        </div>
+
+        <div class="tab-panel hidden" id="tab-info">
+          <section class="card">
+            <h2>Informacje</h2>
+            <p>Taktycznie Zaliczeniowi - Ludzie z pasją dla ludzi z pasją.</p>
+          </section>
+        </div>
+
+        <div class="tab-panel hidden" id="tab-opinie">
+          <section class="card">
+            <h2>Opinie</h2>
+            <p>Średnia ocen: 5 ⭐ (4423 opinii)</p>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
